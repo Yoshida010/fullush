@@ -19,7 +19,7 @@ document.getElementById('daiya1').onclick = function(){
   // クリックしたら画面遷移してほしい
   document.getElementById('moved').onclick = function(){
     console.log('click');
-    location.href = 'https://techacademy.jp/magazine/32006';
+    location.href = 'select.html';
   }
 }
 
@@ -42,7 +42,7 @@ document.getElementById('daiya2').onclick = function(){
   // クリックしたら画面遷移してほしい
   document.getElementById('moved').onclick = function(){
     console.log('click');
-    location.href = 'https://techacademy.jp/magazine/32006';
+    location.href = 'select.html';
   }
 }
 
@@ -64,7 +64,7 @@ document.getElementById('daiya3').onclick = function(){
   // クリックしたら画面遷移してほしい
   document.getElementById('moved').onclick = function(){
     console.log('click');
-    location.href = 'https://techacademy.jp/magazine/32006';
+    location.href = 'select.html';
   }
 }
 
@@ -86,7 +86,7 @@ document.getElementById('daiya4').onclick = function(){
   // クリックしたら画面遷移してほしい
   document.getElementById('moved').onclick = function(){
     console.log('click');
-    location.href = 'https://techacademy.jp/magazine/32006';
+    location.href = 'select.html';
   }
 }
 
@@ -108,7 +108,7 @@ document.getElementById('daiya5').onclick = function(){
   // クリックしたら画面遷移してほしい
   document.getElementById('moved').onclick = function(){
     console.log('click');
-    location.href = 'https://techacademy.jp/magazine/32006';
+    location.href = 'select.html';
   }
 }
 
@@ -130,6 +130,6 @@ document.getElementById('daiya6').onclick = function(){
   // クリックしたら画面遷移してほしい
   document.getElementById('moved').onclick = function(){
     console.log('click');
-    location.href = 'https://techacademy.jp/magazine/32006';
+    location.href = 'select.html';
   }
 }
