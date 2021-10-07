@@ -3,7 +3,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	text-align: center;
-  background-image: url(../2021_gten/img/select1.png);
+  background-image: url(img/select1.png);
   background-size: 100% 100%;
   font-family: "Tsukushi A Round Gothic";
   transition: 500ms;
