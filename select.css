@@ -101,7 +101,7 @@ a{
 	}
 }
 
-@media screen and (max-width:330px){
+@media screen and (max-width:360px){
   .exult h1{
     margin: 0;
   }
