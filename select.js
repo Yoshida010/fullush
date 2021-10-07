@@ -35,7 +35,7 @@ yesBtn.onclick = () => {
     qNum = 12;
     document.getElementById('return').classList.remove('no_screen');
   }
-  document.getElementById('root').style.backgroundImage=`url(../2021_gten/img/select${qNum}.png)`;
+  document.getElementById('root').style.backgroundImage=`url(img/select${qNum}.png)`;
 }
 
 noBtn.onclick = () => {
@@ -75,5 +75,5 @@ noBtn.onclick = () => {
     qNum = 12;
     document.getElementById('return').classList.remove('no_screen');
   }
-  document.getElementById('root').style.backgroundImage=`url(../2021_gten/img/select${qNum}.png)`;
+  document.getElementById('root').style.backgroundImage=`url(img/select${qNum}.png)`;
 }
