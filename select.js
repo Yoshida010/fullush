@@ -94,5 +94,6 @@ noBtn.onclick = () => {
     }
     document.getElementById('return').classList.remove('no_screen');
     document.getElementById('root').style.backgroundImage=`url(img/select12.png)`;
+    document.getElementById('root').style.backgroundSize = '100% 100%';
   }
 }
