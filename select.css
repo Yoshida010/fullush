@@ -3,115 +3,154 @@ body {
 	height: 100vh;
 	margin: 0;
 	text-align: center;
-  background-image: url(img/select1.png);
-  background-size: 100% 100%;
-  font-family: "Tsukushi A Round Gothic";
-  transition: 500ms;
+	font-family: "Tsukushi A Round Gothic";
+	animation: bg_anim 1s ease 0s normal forwards running;
 }
 
 button {
-  display: inline-block;
-  width: 80%;
-  height: 25vh;
-  margin-bottom: 5%;
-  background-color: white;
-  border: none;
-  border-radius: 37px;
-  font-family: "Tsukushi A Round Gothic";
-  font-size: 36px;
-  opacity: 0.8;
+	display: inline-block;
+	width: 80%;
+	height: 25vh;
+	margin-bottom: 5%;
+	background-color: white;
+	border: none;
+	border-radius: 37px;
+	font-family: "Tsukushi A Round Gothic";
+	font-size: 36px;
+	opacity: 0.8;
 }
 
 #q_container {
+	position: relative;
 	display: inline-block;
 	width: 100%;
-  text-align: center;
+	height: 100%;
+	text-align: center;
 }
 
-#question{
-  width: 80%;
-  height: 13vh;
-  margin: auto;
-  margin-top: 21%;
-  margin-bottom: 14%;
-  background-color: white;
-  line-height: 13vh;
-  border-radius: 30px;
+#q_container img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#select1 {
+	display: block;
+}
+
+#select2,
+#select3,
+#select4,
+#select5,
+#select6,
+#select7,
+#select8,
+#select9,
+#select10,
+#select11 {
+	display: none;
+}
+
+img {
+	animation: bg_anim 1s ease 0s normal forwards running;
+}
+
+@keyframes bg_anim {
+	0% {
+		opacity: 30%;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+
+#question {
+	position: relative;
+	width: 80%;
+	height: 13vh;
+	margin: auto;
+	margin-top: 21%;
+	margin-bottom: 14%;
+	background-color: white;
+	line-height: 13vh;
+	border-radius: 30px;
 }
 
 .no_screen {
 	display: none;
 }
 
-.exult{
-  width: 100%;
-  height: 89%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
+.exult {
+	width: 100%;
+	height: 89%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
 }
 
-.image{
-  display: inline-block;
-  width: 40%;
+.image {
+	display: inline-block;
+	width: 40%;
 }
 
-.image img{
-  width: 100%;
+.image img {
+	width: 100%;
 }
 
-.exult h1{
-  margin: 2% 0 0 0;
-  font-size: 30px;
-  font-weight: lighter;
+.exult h1 {
+	margin: 2% 0 0 0;
+	font-size: 30px;
+	font-weight: lighter;
 }
 
-.exult h2{
-  margin: 0 0 0 0;
-  font-size: 24px;
-  font-weight: lighter;
+.exult h2 {
+	margin: 0 0 0 0;
+	font-size: 24px;
+	font-weight: lighter;
 }
 
-.exult p{
-  width: 90%;
-  font-size: 22px;
-  line-height: 36px;
-  margin: 8% 0 0 0;
+.exult p {
+	width: 90%;
+	font-size: 22px;
+	line-height: 36px;
+	margin: 8% 0 0 0;
 }
 
-a{
-  font-size: 20px;
-  color: black;
-  text-decoration: none;
+a {
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
 }
 
-.btn_anim{
+.btn_anim {
 	animation-name: btn_anim;
 	animation-duration: 200ms;
 }
 
-@keyframes btn_anim{
-	0%{
+@keyframes btn_anim {
+	0% {
 		opacity: 0.8;
 	}
-	100%{
-		opacity: 1.0;
+	100% {
+		opacity: 1;
 	}
 }
 
-@media screen and (max-width:360px){
-  .exult h1{
-    margin: 0;
-  }
-  
-  .exult p{
-    font-size: 17px;
-    line-height: 27px;
-  }
+@media screen and (max-width: 360px) {
+	.exult h1 {
+		margin: 0;
+	}
 
-  a{
-    font-size: 16px;
-  }
+	.exult p {
+		font-size: 17px;
+		line-height: 27px;
+	}
+
+	a {
+		font-size: 16px;
+	}
 }
