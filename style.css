@@ -3,6 +3,7 @@ body {
 	width: 100%;
 	height: 100vh;
 	margin: 0 auto;
+	animation: bg_anim 1s ease 0s normal forwards running;
 }
 
 /* pc画面 */
@@ -261,7 +262,7 @@ body {
 	}
 }
 
-@media screen and (min-width:370px) and (max-width:380px){
+@media screen and (min-width: 370px) and (max-width: 380px) {
 	@keyframes start4 {
 		0% {
 			transform: translate(101px, 730px) rotate(0deg);
@@ -323,7 +324,7 @@ body {
 	}
 }
 
-@media screen and (min-width:370px) and (max-width:380px) and (max-height:667px){
+@media screen and (min-width: 370px) and (max-width: 380px) and (max-height: 667px) {
 	@keyframes start4 {
 		0% {
 			transform: translate(101px, 730px) rotate(0deg);
@@ -385,7 +386,7 @@ body {
 	}
 }
 
-@media screen and (min-width:350px) and (max-width:370px){
+@media screen and (min-width: 350px) and (max-width: 370px) {
 	@keyframes start4 {
 		0% {
 			transform: translate(101px, 730px) rotate(0deg);
@@ -428,18 +429,18 @@ body {
 }
 
 @media screen and (min-width: 310px) and (max-width: 340px) {
-	.start h1{
+	.start h1 {
 		margin: 0%;
 		top: 226px;
 		right: 15px;
 	}
 
-	.start p{
+	.start p {
 		margin: 0;
 		font-size: 14px;
 	}
 
-	#smartphone{
+	#smartphone {
 		bottom: 68px;
 	}
 
@@ -561,5 +562,174 @@ body {
 			margin-left: 50%;
 			transform: translate(-50%, -50%) scale(4) rotate(0deg);
 		}
+	}
+}
+
+/* 追加 */
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	font-family: "Tsukushi A Round Gothic";
+	animation: bg_anim 1s ease 0s normal forwards running;
+}
+
+button {
+	display: inline-block;
+	width: 80%;
+	height: 25vh;
+	margin-bottom: 5%;
+	background-color: white;
+	border: none;
+	border-radius: 37px;
+	font-family: "Tsukushi A Round Gothic";
+	font-size: 36px;
+	opacity: 0.8;
+}
+
+#q_container {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#q_container img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#select2,
+#select3,
+#select4,
+#select5,
+#select6,
+#select7,
+#select8,
+#select9,
+#select10,
+#select11 {
+	display: none;
+}
+
+.bg_anim,
+.exult img,
+#select2,
+#select3,
+#select4,
+#select5,
+#select6,
+#select7,
+#select8,
+#select9,
+#select10,
+#select11 {
+	animation: bg_anim 1s ease 0s normal forwards running;
+}
+@keyframes bg_anim {
+	0% {
+		opacity: 30%;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+
+#question {
+	position: relative;
+	width: 80%;
+	height: 13vh;
+	margin: auto;
+	margin-top: 21%;
+	margin-bottom: 14%;
+	background-color: white;
+	line-height: 13vh;
+	border-radius: 30px;
+}
+
+.no_screen {
+	display: none;
+}
+
+.exult {
+	width: 100%;
+	height: 89%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-align: center;
+}
+
+.image {
+	display: inline-block;
+	width: 40%;
+}
+
+.image img {
+	width: 100%;
+}
+
+.exult h1 {
+	margin: 2% 0 0 0;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.exult h2 {
+	margin: 0 0 0 0;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+.exult p {
+	width: 90%;
+	font-size: 22px;
+	line-height: 36px;
+	margin: 8% 0 0 0;
+}
+
+#return {
+	width: 100%;
+	text-align: center;
+}
+
+a {
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.btn_anim {
+	animation-name: btn_anim;
+	animation-duration: 200ms;
+}
+
+@keyframes btn_anim {
+	0% {
+		opacity: 0.8;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.exult h1 {
+		margin: 0;
+	}
+
+	.exult p {
+		font-size: 17px;
+		line-height: 27px;
+	}
+
+	a {
+		font-size: 16px;
 	}
 }
