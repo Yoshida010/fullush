@@ -20,10 +20,26 @@ body {
 	display: none;
 }
 
+#splash {
+	display: none;
+}
+
 /* スマホ画面 */
 @media screen and (max-width: 420px) {
 	.pc_screen {
 		display: none;
+	}
+
+	#splash {
+		display: block;
+		/*fixedで全面に固定*/
+		position: fixed;
+		z-index: 999;
+		width: 100%;
+		height: 100%;
+		background:#dbb8ca;
+		text-align:center;
+		color:#fff;
 	}
 
 	.screen {
@@ -69,7 +85,7 @@ body {
 
 	.daiya1 {
 		width: 26%;
-		animation: start1 1s ease 0s normal forwards running;
+		animation: start1 1s ease 0.5s normal forwards running;
 	}
 
 	@keyframes start1 {
@@ -98,7 +114,7 @@ body {
 
 	.daiya2 {
 		width: 12%;
-		animation: start2 1s ease 0s 1 normal forwards running;
+		animation: start2 1s ease 0.5s 1 normal forwards running;
 	}
 
 	@keyframes start2 {
@@ -127,7 +143,7 @@ body {
 
 	.daiya3 {
 		width: 23%;
-		animation: start3 1s ease 0s 1 normal forwards running;
+		animation: start3 1s ease 0.5s 1 normal forwards running;
 	}
 
 	@keyframes start3 {
@@ -156,7 +172,7 @@ body {
 
 	.daiya4 {
 		width: 18%;
-		animation: start4 1s ease 0s 1 normal forwards running;
+		animation: start4 1s ease 0.5s 1 normal forwards running;
 	}
 
 	@keyframes start4 {
@@ -185,7 +201,7 @@ body {
 
 	.daiya5 {
 		width: 28%;
-		animation: start5 1s ease 0s 1 normal forwards running;
+		animation: start5 1s ease 0.5s 1 normal forwards running;
 	}
 
 	@keyframes start5 {
@@ -214,7 +230,7 @@ body {
 
 	.daiya6 {
 		width: 11%;
-		animation: start6 1s ease 0s 1 normal forwards running;
+		animation: start6 1s ease 0.5s 1 normal forwards running;
 	}
 
 	@keyframes start6 {
@@ -254,7 +270,9 @@ body {
 	}
 
 	.first {
-		margin-top: 47%;
+		margin-top: 43%;
+		font-size: 18px;
+		line-height: 30px;
 	}
 
 	.second {
@@ -570,7 +588,6 @@ body {
 	width: 100%;
 	height: 100vh;
 	margin: 0;
-	font-family: "Tsukushi A Round Gothic";
 	animation: bg_anim 1s ease 0s normal forwards running;
 }
 
@@ -676,20 +693,21 @@ button {
 }
 
 .exult h1 {
-	margin: 2% 0 0 0;
-	font-size: 30px;
+	margin: 0;
+	font-size: 32px;
+	line-height: 50px;
 	font-weight: lighter;
 }
 
 .exult h2 {
-	margin: 0 0 0 0;
+	margin: 0;
 	font-size: 24px;
 	font-weight: lighter;
 }
 
 .exult p {
 	width: 90%;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 36px;
 	margin: 8% 0 0 0;
 }
@@ -720,12 +738,8 @@ a {
 }
 
 @media screen and (max-width: 360px) {
-	.exult h1 {
-		margin: 0;
-	}
-
 	.exult p {
-		font-size: 17px;
+		font-size: 16px;
 		line-height: 27px;
 	}
 
