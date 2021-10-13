@@ -1,5 +1,8 @@
 'use strict'
 
+//高さ取得
+document.getElementById('root').style.height = window.innerHeight + "px";
+
 //テキストのカウントアップの設定
 var bar = new ProgressBar.Line(splash_text, {//id名を指定
 	strokeWidth: 0,//進捗ゲージの太さ
