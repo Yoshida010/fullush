@@ -57,6 +57,7 @@ document.getElementById('daiya1').onclick = function(){
   document.getElementById('moved').onclick = function(){
     document.getElementById('start_container').style.display = 'none';
     document.getElementById('q_container').classList.remove('no_screen');
+    document.getElementById('q_container').classList.add('q_container');
     document.getElementById('select1').classList.add('bg_anim');
   }
 }
@@ -81,6 +82,7 @@ document.getElementById('daiya2').onclick = function(){
   document.getElementById('moved').onclick = function(){
     document.getElementById('start_container').style.display = 'none';
     document.getElementById('q_container').classList.remove('no_screen');
+    document.getElementById('q_container').classList.add('q_container');
     document.getElementById('select1').classList.add('bg_anim');
   }
 }
@@ -104,6 +106,7 @@ document.getElementById('daiya3').onclick = function(){
   document.getElementById('moved').onclick = function(){
     document.getElementById('start_container').style.display = 'none';
     document.getElementById('q_container').classList.remove('no_screen');
+    document.getElementById('q_container').classList.add('q_container');
     document.getElementById('select1').classList.add('bg_anim');
   }
 }
@@ -127,6 +130,7 @@ document.getElementById('daiya4').onclick = function(){
   document.getElementById('moved').onclick = function(){
     document.getElementById('start_container').style.display = 'none';
     document.getElementById('q_container').classList.remove('no_screen');
+    document.getElementById('q_container').classList.add('q_container');
     document.getElementById('select1').classList.add('bg_anim');
   }
 }
@@ -150,6 +154,7 @@ document.getElementById('daiya5').onclick = function(){
   document.getElementById('moved').onclick = function(){
     document.getElementById('start_container').style.display = 'none';
     document.getElementById('q_container').classList.remove('no_screen');
+    document.getElementById('q_container').classList.add('q_container');
     document.getElementById('select1').classList.add('bg_anim');
   }
 }
@@ -173,6 +178,7 @@ document.getElementById('daiya6').onclick = function(){
   document.getElementById('moved').onclick = function(){
     document.getElementById('start_container').style.display = 'none';
     document.getElementById('q_container').classList.remove('no_screen');
+    document.getElementById('q_container').classList.add('q_container');
     document.getElementById('select1').classList.add('bg_anim');
   }
 }
